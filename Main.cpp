@@ -19,7 +19,7 @@ int main()
 
 inicio:
 
-	DWORD PID = utils::get_pid_process("raidcall.exe");
+	DWORD PID = utils::get_pid_process("process.exe");
 	if (!PID)
 	{
 		printf("[-] Processo nao atacado: \n");
